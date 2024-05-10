@@ -13,7 +13,7 @@ jobs:
       - name: Test KICS action
         uses: ./
         with:
-          path: test/samples/positive1.tf,test/samples/positive2.tf
+          path: main.tf
           token: ${{ secrets.GITHUB_TOKEN }}
           timeout: 60
           output_path: myoutput/
